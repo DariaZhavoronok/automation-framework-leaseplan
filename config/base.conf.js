@@ -55,7 +55,19 @@ exports.config = {
     },
     // enableVideo: true,
     screenResolution: '1280x1024',
-  }],
+  },
+
+/*  {
+    browserName: 'firefox',
+    firefoxOptions: {
+      prefs: {
+        'download.default_directory': path.resolve('reports/downloads'),
+      },
+    },
+    screenResolution: '1280x1024',
+  }
+  */
+  ],
   //
   // ===================
   // Test Configurations
@@ -122,7 +134,7 @@ exports.config = {
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
   // services: ['selenium-standalone','visual-regression'],
-  // services: ['selenium-standalone'],
+  //services: ['selenium-standalone'],
   //
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
